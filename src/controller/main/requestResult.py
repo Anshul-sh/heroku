@@ -1,12 +1,10 @@
-# NEEDIMPROVE: need to rearrange the imports
 import json
+import pandas as pd
 
 from src.twitter.authentication.TwitterAPIAuthentication import TwitterAPIAuthentication
 from src.twitter.search.search import Search
 # FIXME: Same name as .py file in watson API!
 from src.watson.tone_analysis.tone_analysis import ToneAnalysis
-
-
 def main():
     """
     Demonstrate the process of data flow.
@@ -35,7 +33,9 @@ def main():
     result = Ta.get_tone_analysis_result()
     # Tone Analysis Done
     # Display result
-    print(json.dumps(result, indent=2))
+
+    with open('Output/Output.json','w') as file_write:
+        file_write.write(json.dumps(result, indent=2, sort_keys=True))
 
 
 if __name__ == '__main__':

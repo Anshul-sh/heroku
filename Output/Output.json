@@ -1,0 +1,82 @@
+{
+  "document_tone": {
+    "tones": [
+      {
+        "score": 0.584186,
+        "tone_id": "anger",
+        "tone_name": "Anger"
+      }
+    ]
+  },
+  "sentences_tone": [
+    {
+      "sentence_id": 0,
+      "text": "@realDonaldTrump You know what\u2019s more important than a payroll tax cut?",
+      "tones": [
+        {
+          "score": 0.653099,
+          "tone_id": "analytical",
+          "tone_name": "Analytical"
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "text": "Protecting people\u2019s lives, which matter so\u2026 https://t.co/j3uPdOkDYw",
+      "tones": []
+    },
+    {
+      "sentence_id": 2,
+      "text": "@realDonaldTrump you should resign",
+      "tones": [
+        {
+          "score": 0.916667,
+          "tone_id": "sadness",
+          "tone_name": "Sadness"
+        },
+        {
+          "score": 0.931034,
+          "tone_id": "anger",
+          "tone_name": "Anger"
+        },
+        {
+          "score": 0.931034,
+          "tone_id": "fear",
+          "tone_name": "Fear"
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "text": "@realDonaldTrump Trump doesn't get it.",
+      "tones": [
+        {
+          "score": 0.965509,
+          "tone_id": "analytical",
+          "tone_name": "Analytical"
+        }
+      ]
+    },
+    {
+      "sentence_id": 4,
+      "text": "International travel affects so many industries and so many jobs.",
+      "tones": []
+    },
+    {
+      "sentence_id": 5,
+      "text": "This is al\u2026 https://t.co/6XDPBEDk9v",
+      "tones": []
+    },
+    {
+      "sentence_id": 6,
+      "text": "@realDonaldTrump It\u2019s absolutely insane that all you seem to care about in the middle of a pandemic that could kill\u2026 https://t.co/n9sPAx8znd",
+      "tones": [
+        {
+          "score": 0.554437,
+          "tone_id": "anger",
+          "tone_name": "Anger"
+        }
+      ]
+    }
+  ]
+}
