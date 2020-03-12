@@ -5,7 +5,7 @@ from src.twitter.authentication.TwitterAPIAuthentication import TwitterAPIAuthen
 from src.twitter.search.search import Search
 # FIXME: Same name as .py file in watson API!
 from src.watson.tone_analysis.tone_analysis import ToneAnalysis
-def main():
+def prRequest():
     """
     Demonstrate the process of data flow.
     :return:
@@ -16,11 +16,6 @@ def main():
     s = Search()
     s.initialize(api, '@realdonaldtrump')
     r = s.search_a_tweet_and_its_replies()
-    print(r[0])
-    print(r[1])
-    for t in r[1]:
-        print(t.text)
-    print('-----Twitter API Done-----')
     # Twitter part done.
     # Process the data(Very Sample)
     text = ''
@@ -39,4 +34,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    request()

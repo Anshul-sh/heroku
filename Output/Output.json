@@ -2,9 +2,9 @@
   "document_tone": {
     "tones": [
       {
-        "score": 0.584186,
-        "tone_id": "anger",
-        "tone_name": "Anger"
+        "score": 0.620127,
+        "tone_id": "sadness",
+        "tone_name": "Sadness"
       }
     ]
   },
@@ -27,27 +27,6 @@
     },
     {
       "sentence_id": 2,
-      "text": "@realDonaldTrump you should resign",
-      "tones": [
-        {
-          "score": 0.916667,
-          "tone_id": "sadness",
-          "tone_name": "Sadness"
-        },
-        {
-          "score": 0.931034,
-          "tone_id": "anger",
-          "tone_name": "Anger"
-        },
-        {
-          "score": 0.931034,
-          "tone_id": "fear",
-          "tone_name": "Fear"
-        }
-      ]
-    },
-    {
-      "sentence_id": 3,
       "text": "@realDonaldTrump Trump doesn't get it.",
       "tones": [
         {
@@ -58,25 +37,50 @@
       ]
     },
     {
-      "sentence_id": 4,
+      "sentence_id": 3,
       "text": "International travel affects so many industries and so many jobs.",
       "tones": []
     },
     {
-      "sentence_id": 5,
+      "sentence_id": 4,
       "text": "This is al\u2026 https://t.co/6XDPBEDk9v",
       "tones": []
     },
     {
+      "sentence_id": 5,
+      "text": "@realDonaldTrump Global pandemic?",
+      "tones": []
+    },
+    {
       "sentence_id": 6,
-      "text": "@realDonaldTrump It\u2019s absolutely insane that all you seem to care about in the middle of a pandemic that could kill\u2026 https://t.co/n9sPAx8znd",
+      "text": "Tax cuts!",
+      "tones": []
+    },
+    {
+      "sentence_id": 7,
+      "text": "Americans dying?",
       "tones": [
         {
-          "score": 0.554437,
-          "tone_id": "anger",
-          "tone_name": "Anger"
+          "score": 0.807484,
+          "tone_id": "sadness",
+          "tone_name": "Sadness"
         }
       ]
+    },
+    {
+      "sentence_id": 8,
+      "text": "Tax cuts!",
+      "tones": []
+    },
+    {
+      "sentence_id": 9,
+      "text": "Not enough tests?",
+      "tones": []
+    },
+    {
+      "sentence_id": 10,
+      "text": "TAX CUUUUUU",
+      "tones": []
     }
   ]
 }

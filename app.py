@@ -2,6 +2,9 @@ from flask import Flask, render_template, request, redirect
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 
+from src.controller.main.JsonFormat import PrCrisisResult
+from src.controller.main.requestResult import prRequest
+
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///test.db'
 db = SQLAlchemy(app)
@@ -75,10 +78,13 @@ def output():
     print("test")
     if request.method == 'POST':
         task_content = request.form['content']
-        x = "test" + task_content
+        prRequest()
+        x,y = PrCrisisResult()
         f = open("templates/output.html", "w+")
         for i in x:
             f.write(i)
+        for i in y:
+            f.(i)
         f.close()
         return redirect('/output/')
 
