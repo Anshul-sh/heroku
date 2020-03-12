@@ -1,9 +1,7 @@
 # Search class handle different kinds of search
 import tweepy
 from tweepy import OAuthHandler
-import pandas
-import sys
-import json
+
 
 
 class SearchATweetAndItsReplies:
